@@ -44,13 +44,4 @@ class PinsController extends AbstractController
             'controller_name' => 'PinsController','modele'=>$repo->findAll()
         ]);
     }
-    // methods=("GET","POST")
-    /**
-     * @Route("/toto")
-     */
-    public function toto(){
-
-        return $this->render('pins/toto.html.twig');
-
-    }
 }
