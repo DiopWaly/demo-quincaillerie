@@ -1,0 +1,3 @@
+# home: 
+#    path: /toto
+#    controller: App\Controller\PinsController::index
