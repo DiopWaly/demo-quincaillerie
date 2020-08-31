@@ -7,6 +7,7 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class ModeleController extends AbstractController
 {
+    // methods=("GET","POST")
     /**
      * @Route("/modele", name="modele")
      */
